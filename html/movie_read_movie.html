@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Read Movie</title>
+</head>
+<body>
+	<h1>Type movie's title to get basic info</h1>
+	<h3>(including director's name, and two lead actors)</h3>
+	<form method='get' action='/myfirstweb/movie_servlet'>
+		Title = <input type='text' name='title'><br>
+		<input type='hidden' name='mode' value='Read_Movie'>
+		<input type='submit' value='Search'><br>              
+	</form>
+
+</body>
+</html>

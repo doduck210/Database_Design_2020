@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Create Actor</title>
+</head>
+<body>
+	<h1>Insert an actor to movie who's not in lead_role!</h1>
+	<form method='get' action='/myfirstweb/movie_servlet'>
+		Actor's Code = <input type='text' name='actorCode' placeholder="9 numbers" required><br>
+		First Name = <input type='text' name='fName' required><br>
+		Last Name = <input type='text' name='lName' required><br>
+		Movie Code = <input type='text' name='movieCode' placeholder="9 numbers" required><br>
+		<input type='hidden' name='mode' value='Create_Actor'>
+		<input type='submit' value='Insert'><br>              
+	</form>
+
+</body>
+</html>

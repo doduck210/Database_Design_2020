@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Delete Actor</title>
+</head>
+<body>
+	<h1>Delete Actor who's not doing a lead role</h1>
+	<h2>(He also should not be a director or producer)</h2>
+	<form method='get' action='/myfirstweb/movie_servlet'>
+		Actor's code = <input type='text' name='actCode' placeholder="9 numbers" required><br>
+		<input type='hidden' name='mode' value='Delete_Actor'>
+		<input type='submit' value='Delete'><br>              
+	</form>
+
+</body>
+</html>

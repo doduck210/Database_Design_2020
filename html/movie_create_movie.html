@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Create Movie</title>
+</head>
+<body>
+	<h1>Insert Movie!</h1>
+	<h2>Extra Actors(who's not doing lead role) and Producers can be added seperately, but not here</h2>
+	<form method='get' action='/myfirstweb/movie_servlet'>
+		Lead Actor1's Code = <input type='text' name='act1Code' placeholder="9 numbers" required><br>
+		First Name = <input type='text' name='act1fname' required><br>
+		Last Name = <input type='text' name='act1lname' required><br><br>
+		Lead Actor2's Code = <input type='text' name='act2Code' placeholder="9 numbers" required><br>
+		First Name = <input type='text' name='act2fname' required><br>
+		Last Name = <input type='text' name='act2lname' required><br><br>
+		Movie Code = <input type='text' name='movieCode' placeholder="9 numbers" required><br>
+		Title = <input type='text' name='title' required><br><br>
+		Director's Code = <input type='text' name='dirCode' placeholder="9 numbers" required><br>
+		First Name = <input type='text' name='dirfname' required><br>
+		Last Name = <input type='text' name='dirlname' required><br><br>
+		Producer's Code = <input type='text' name='proCode' placeholder="9 numbers" required><br>
+		First Name = <input type='text' name='profname' required><br>
+		Last Name = <input type='text' name='prolname' required><br>
+		<input type='hidden' name='mode' value='Create_Movie'>
+		<input type='submit' value='Insert'><br>              
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Create Producer</title>
+</head>
+<body>
+	<h1>Insert producer to movie!</h1>
+	<form method='get' action='/myfirstweb/movie_servlet'>
+		Producer's Code = <input type='text' name='proCode' placeholder="9 numbers" required><br>
+		First Name = <input type='text' name='fName' required><br>
+		Last Name = <input type='text' name='lName' required><br>
+		Movie Code = <input type='text' name='movieCode' placeholder="9 numbers" required><br>
+		Actor's Code = <input type='text' name='actCode' placeholder="only if it is"><br>
+		<input type='hidden' name='mode' value='Create_Producer'>
+		<input type='submit' value='Insert'><br>              
+	</form>
+
+</body>
+</html>
